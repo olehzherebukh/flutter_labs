@@ -237,13 +237,13 @@ class WeatherList extends StatelessWidget {
                               )),
                         if (weatherList[index].maxTempFirstDay > 10)
                           SizedBox(
-                              height: 60,
+                              height: 50,
                               child: Container(
                                 child: builtSun,
                               )),
                             if (weatherList[index].maxTempFirstDay < 0)
                               SizedBox(
-                                  height: 50,
+                                  height: 60,
                                   child: Column(children: <Widget>[
                                     SlideTransition(
                                       position: offSetFirstAnimation,
